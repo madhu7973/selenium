@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+	<!-- <listeners> -->
+	<!-- <listener class-name="testNG.EventListner" /> -->
+	<!-- </listeners> -->
+	<test name="Test">
+		<!-- <groups> -->
+		<!-- <run> -->
+		<!-- <include name="sanity" /> -->
+		<!-- <include name="regression" /> -->
+		<!-- <exclude name="smoke" /> -->
+		<!-- <exclude name="unit" /> -->
+		<!-- </run> -->
+		<!-- </groups> -->
+		<!-- <parameter name="username" value="Admin" /> -->
+		<!-- <parameter name="password" value="admin123" /> -->
+		<classes>
+			<!-- <class name="testNG.DataProviderMethod_Excel" /> -->
+			<!-- <class name="testNG.Dependency_TestMethod" /> -->
+			<!-- <class name="testNG.Dependency_TestNGXML" /> -->
+			<!-- <class name="testNG.ExpectedExceptions" /> -->
+			<!-- <class name="testNG.Priorities" /> -->
+			<!-- <class name="testNG.ParallelClassExecution" /> -->
+			<!-- <class name="testNG.Groups" /> -->
+			<!-- <class name="testNG.Parameterization" /> -->
+			<!-- <class name="testNG.HardAssertions" /> -->
+			<!-- <class name="testNG.Before_After_Metheods" /> -->
+			<!-- <class name="testNG.Invocation" /> -->
+			<!-- <class name="testNG.DataProviderMethod_2DArray" /> -->
+			<!-- <class name="testNG.ParallelMethodsExecution" /> -->
+			<!-- <class name="testNG.DataProviderUtility_ExceL" /> -->
+			<!-- <class name="testNG.Ignore_AlwaysRun" /> -->
+			<!-- <class name="testNG.Event"> -->
+			<!-- <methods> -->
+			<!-- <include name="checkOut" /> -->
+			<!-- <include name="addToBag" /> -->
+			<!-- <exclude name="search" /> -->
+			<!-- </methods> -->
+			<!-- </class> -->
+			<!-- <class name="testNG.TestGroups3" /> -->
+			<!-- <class name="testNG.DependencyExample" /> -->
+			<!-- <class name="testNG.SoftAssertions" /> -->
+			<!-- <class name="testNG.TestGroups1" /> -->
+			<!-- <class name="testNG.TestGroups2" /> -->
+			<!-- <class name="testNG.Dependency_Groups" /> -->
+			<!-- <class name="testNG.Befores_Afters" /> -->
+			<!-- <class name="testNG.Enable_AlwaysRun" /> -->
+		</classes>
+	</test> <!-- Test -->
+	<!-- <test name="Test1"> -->
+	<!-- <classes> -->
+	<!-- <class name="testNG.ParallelSuiteExecution" /> -->
+	<!-- </classes> -->
+	<!-- </test> Test -->
+</suite> <!-- Suite -->
