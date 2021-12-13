@@ -36,7 +36,6 @@
 	<!-- </build> -->
 
 	<dependencies>
-
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -162,6 +161,5 @@
 		<!-- <version>7.0.0</version> -->
 		<!-- <scope>test</scope> -->
 		<!-- </dependency> -->
-
 	</dependencies>
 </project>
